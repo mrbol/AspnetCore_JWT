@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WebAPI</name>
+    </assembly>
+    <members>
+        <member name="M:WebAPI.Controllers.UserController.RegisterAsync(WebAPI.Models.RegisterModel)">
+            <summary>
+            Registrando Um Novo Usuário
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WebAPI.Controllers.UserController.GetTokenAsync(WebAPI.Models.TokenRequestModel)">
+            <summary>
+            Gerar Token JWT
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WebAPI.Controllers.UserController.AddRoleAsync(WebAPI.Models.AddRoleModel)">
+            <summary>
+            Adicionando Funções Ao Usuário
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
